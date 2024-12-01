@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #66bb6a;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4caf50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Laboratory Management System</h1>
+        <p>Managing lab services efficiently</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#tests">Tests</a>
+        <a href="#reports">Reports</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Welcome to Our Lab</h2>
+            <p>We provide accurate and timely diagnostic services to assist healthcare professionals in patient care.</p>
+        </section>
+        <section id="tests" class="section">
+            <h2>Our Tests</h2>
+            <ul>
+                <li>Blood Tests</li>
+                <li>Urine Analysis</li>
+                <li>COVID-19 Testing</li>
+                <li>Pathology Tests</li>
+                <li>Radiology and Imaging</li>
+            </ul>
+        </section>
+        <section id="reports" class="section">
+            <h2>Patient Reports</h2>
+            <p>Retrieve your test results online or contact us for assistance.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Address: 456 Lab Street, Diagnostic City</p>
+            <p>Phone: +1 987 654 321</p>
+            <p>Email: support@labmanagement.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Laboratory Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
